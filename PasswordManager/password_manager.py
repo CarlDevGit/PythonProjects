@@ -63,6 +63,7 @@ if connect == ADMIN_PASSWORD:
         if input_ == "gp":
             service = input("What is the name of the service?\n")
             print("\n" + service.capitalize() + " password:\n"+get_password(ADMIN_PASSWORD, service))
+            print
 
 
 
