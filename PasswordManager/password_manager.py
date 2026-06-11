@@ -3,7 +3,7 @@ import sqlite3
 from hashlib import sha256
 
 
-ADMIN_PASSWORD = "wbwbdvlpr.(0)(0))"
+ADMIN_PASSWORD = "123456"
 
 connect = input("What is your password?\n")
 
